@@ -1,9 +1,9 @@
 var page = new tabris.Page({
   topLevel: true,
-  title: "myapp"
+  title: "Lotto Scan"
 });
 new tabris.TextView({
-  layoutData: {centerX: 0, centerY: 0},
-  text: "My First App -TW"
+  layoutData: {centerX: 100, centerY: 0},
+  text: "win lotto"
 }).appendTo(page);
 page.open();
